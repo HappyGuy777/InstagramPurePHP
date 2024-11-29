@@ -1,0 +1,126 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 86%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.chat-cont{
+    min-height: 100vh;
+    position: relative;
+}
+.big{
+    width: 80%;
+}
+.chat-list-cont{
+    overflow: hidden;
+    position: fixed;
+    border-right: 1px solid rgb(219 219 219);
+    padding: 0 0 0 10px;
+}
+
+.row2 button:hover{
+     background-color: #0068ee;
+ }
+.row2 button:active{
+    background-color: #10d7d7;
+}
+.username-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 24px 12px 24px;
+}
+.chat-buttons{
+    border-radius: 10px;
+
+}
+.chat-list {
+    padding: 5px 5px 0 5px;
+    height: 100vh;
+    width: 260px;
+    overflow-y: scroll;
+}
+
+.chat-list h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.chat-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.chat-list li {
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.chat-list li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-list li span {
+    font-weight: bold;
+    font-size: 16px;
+}
+.chat-list li:hover {
+    background-color: #e0e0e0;
+}
+.chat-list li:active {
+    background-color: #007bff;
+}
+
+.chat-window {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chat-window h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.chat-messages {
+    overflow-y: scroll;
+    height: 85vh;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

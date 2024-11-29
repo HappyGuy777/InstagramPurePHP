@@ -1,0 +1,241 @@
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width: 82%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-box{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    height: 20%;
+    border-bottom: 1px solid rgb(219 219 219);
+    padding: 10px;
+}
+.notification{
+    flex-direction: column;
+    min-height: 20%;
+    text-align: center;
+}
+.image-box{
+    width: 24%;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.info-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25%;
+}
+.profile-info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-info-item a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+.info-label {
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+label{
+    display: flex;
+}
+.info-value {
+    font-size: 20px;
+}
+.logout{
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
+.posts {
+    width: 80%;
+    min-height: 70%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(219 219 219);
+}
+
+.post-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.all{
+    justify-content: flex-start;
+
+}
+.post {
+    width: 30%;
+    margin:5px;
+    height: 520px;
+    border: 1px solid rgb(219 219 219);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.line{
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+.center{
+    justify-content: center;
+}
+.title_text{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+.post-title a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+.post-title a span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-container {
+    width: 100%;
+    height: 400px;
+    margin: 0 0 12px 0;
+    overflow: hidden;
+}
+
+.image-slide {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.post-details {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(219 219 219);
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-around;
+}
+.big_cont{
+    width: 38%;
+}
+.likes span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date {
+    font-size: 14px;
+    color: #888;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+input[type="checkbox"]{
+    outline: none;
+    border: none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+}
+.like_count{
+    height: 25px;
+    width: 25px;
+}
+.follow-button{
+    border-radius: 10px;
+    background-color: rgb( 0, 149, 246);
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.follow-button:hover{
+    background-color: #0068ee;
+}
+.follow-button:active{
+    background-color: #10d7d7;
+}
+.notify_box{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #888888;
+
+}
+.notify_box:hover{
+ background-color: #cccccc;
+}
+.notify_box a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
